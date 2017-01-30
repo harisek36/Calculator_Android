@@ -24,16 +24,21 @@
             android:background="@android:color/holo_blue_bright"
             android:layout_weight="2">
 
+            <Button
+                android:text="equals"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/equalButton" />
+
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:inputType="number"
                 android:ems="10"
-                android:id="@+id/editText3"
-                android:text="567"
-                android:textSize="60dp"
-                android:textStyle="normal|bold"
-                android:textColor="@android:color/white"
+                android:id="@+id/answer"
+                android:text="0"
+                android:background="@android:color/darker_gray"
+                android:textSize="36sp"
                 android:textAlignment="viewEnd" />
         </LinearLayout>
 
@@ -48,37 +53,41 @@
                 android:text="7"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/button19"
+                android:id="@+id/sevenButton"
                 android:layout_weight="1"
-                android:textSize="30sp"
-                android:textStyle="normal|bold" />
+                android:textSize="45sp"
+                android:textStyle="normal|bold"
+                android:background="@android:color/background_light" />
 
             <Button
                 android:text="8"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/button18"
+                android:id="@+id/eightButton"
                 android:layout_weight="1"
-                android:textSize="30sp"
-                android:textStyle="normal|bold" />
+                android:textSize="45sp"
+                android:textStyle="normal|bold"
+                android:background="@android:color/background_light" />
 
             <Button
                 android:text="9"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/button17"
+                android:id="@+id/nineButton"
                 android:layout_weight="1"
-                android:textSize="30sp"
-                android:textStyle="normal|bold" />
+                android:textSize="45sp"
+                android:textStyle="normal|bold"
+                android:background="@android:color/background_light" />
 
             <Button
                 android:text="÷"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/button16"
+                android:id="@+id/divideButton"
                 android:layout_weight="1"
-                android:textSize="30sp"
-                android:textStyle="normal|bold" />
+                android:textSize="45sp"
+                android:textStyle="normal|bold"
+                android:background="@android:color/background_light" />
         </LinearLayout>
 
         <LinearLayout
@@ -92,37 +101,41 @@
                 android:text="4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/button23"
+                android:id="@+id/fourButton"
                 android:layout_weight="1"
-                android:textSize="30sp"
-                android:textStyle="normal|bold" />
+                android:textSize="45sp"
+                android:textStyle="normal|bold"
+                android:background="@android:color/background_light" />
 
             <Button
                 android:text="5"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/button22"
+                android:id="@+id/fiveButton"
                 android:layout_weight="1"
-                android:textSize="30sp"
-                android:textStyle="normal|bold" />
+                android:textSize="45sp"
+                android:textStyle="normal|bold"
+                android:background="@android:color/background_light" />
 
             <Button
                 android:text="6"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/button21"
+                android:id="@+id/sixButton"
                 android:layout_weight="1"
-                android:textSize="30sp"
-                android:textStyle="normal|bold" />
+                android:textSize="45sp"
+                android:textStyle="normal|bold"
+                android:background="@android:color/background_light" />
 
             <Button
                 android:text="X"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/button32"
+                android:id="@+id/multiplyButton"
                 android:layout_weight="1"
-                android:textSize="30sp"
-                android:textStyle="normal|bold" />
+                android:textSize="45sp"
+                android:textStyle="normal|bold"
+                android:background="@android:color/background_light" />
 
         </LinearLayout>
 
@@ -137,37 +150,41 @@
                 android:text="1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/button27"
+                android:id="@+id/oneButton"
                 android:layout_weight="1"
-                android:textSize="30sp"
-                android:textStyle="normal|bold" />
+                android:textSize="45sp"
+                android:textStyle="normal|bold"
+                android:background="@android:color/background_light" />
 
             <Button
                 android:text="2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/button26"
+                android:id="@+id/twoButton"
                 android:layout_weight="1"
-                android:textSize="30sp"
-                android:textStyle="normal|bold" />
+                android:textSize="45sp"
+                android:textStyle="normal|bold"
+                android:background="@android:color/background_light" />
 
             <Button
                 android:text="3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/button25"
+                android:id="@+id/threeButton"
                 android:layout_weight="1"
-                android:textSize="30sp"
-                android:textStyle="normal|bold" />
+                android:textSize="45sp"
+                android:textStyle="normal|bold"
+                android:background="@android:color/background_light" />
 
             <Button
                 android:text="-"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/button24"
+                android:id="@+id/subtractButton"
                 android:layout_weight="1"
-                android:textSize="30sp"
-                android:textStyle="normal|bold" />
+                android:textSize="45sp"
+                android:textStyle="normal|bold"
+                android:background="@android:color/background_light" />
         </LinearLayout>
 
         <LinearLayout
@@ -181,38 +198,43 @@
                 android:text="C"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/button31"
+                android:id="@+id/clearButton"
                 android:layout_weight="1"
                 android:textStyle="normal|bold"
-                android:textSize="30sp" />
+                android:textSize="45sp"
+                android:background="@android:color/background_light" />
 
             <Button
                 android:text="0"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/button30"
+                android:id="@+id/zeroButton"
                 android:layout_weight="1"
                 android:textStyle="normal|bold"
-                android:textSize="30sp" />
+                android:textSize="45sp"
+                android:background="@android:color/background_light" />
 
             <Button
                 android:text="."
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/button29"
+                android:id="@+id/dotButton"
                 android:layout_weight="1"
                 android:textStyle="normal|bold"
-                android:textSize="30sp" />
+                android:textSize="45sp"
+                android:background="@android:color/background_light" />
 
             <Button
                 android:text="+"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/button28"
+                android:id="@+id/addButton"
                 android:layout_weight="1"
                 android:textStyle="normal|bold"
-                android:textSize="30sp" />
+                android:textSize="45sp"
+                android:background="@android:color/background_light" />
         </LinearLayout>
 
     </LinearLayout>
+
 </RelativeLayout>
